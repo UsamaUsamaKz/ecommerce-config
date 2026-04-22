@@ -1,7 +1,4 @@
 spring:
-  application:
-    name: order-service
-
   datasource:
     url: jdbc:mysql://localhost:3306/ecommerce?serverTimezone=Asia/Karachi
     username: root
@@ -16,6 +13,3 @@ spring:
     hibernate:
       ddl-auto: update
       show-sql: true
-
-server:
-  port: 8082
