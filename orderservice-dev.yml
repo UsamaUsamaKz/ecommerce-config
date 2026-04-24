@@ -3,14 +3,12 @@ spring:
     url: jdbc:mysql://localhost:3306/ecommerce?serverTimezone=Asia/Karachi
     username: root
     password: admin
-    #password: Utopia01
     hikari:
       maximum-pool-size: 20
       pool-name: user-data-source
       leak-detection-threshold: 3000
     driver-class-name: com.mysql.cj.jdbc.Driver
-
   jpa:
     hibernate:
       ddl-auto: update
-      show-sql: true
+    show-sql: true
